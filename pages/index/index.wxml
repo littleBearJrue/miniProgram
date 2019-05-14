@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="userinfo">
+    <button wx:if="{{isDisplayQR}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取二维码 </button>
+    <block wx:else>
+      <image src="../images/myQR.png" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
