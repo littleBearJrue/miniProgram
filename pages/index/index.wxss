@@ -1,21 +1,25 @@
 /**index.wxss**/
+.topImage {
+  width: 100%;
+  display: block;
+  height: 548rpx;
+}
+
 .userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
+.ws_line{margin-left: 20rpx; margin-right: 20rpx;}
+.ws_line text{color: rgb(194, 194, 194);}
 
-.userinfo-nickname {
-  color: #aaa;
-}
+.ws_title {margin-top: 20rpx;}
+.ws_title text{font-size: 34rpx; color: #000;}
 
-.usermotto {
-  margin-top: 20px;
-}
+
+.ws_ts{padding: 0 40rpx; margin-top: 20rpx;}
+.ws_ts{line-height: 36rpx;}
+.ws_ts text{font-size: 28rpx; color: #878787;}
+
+.ws_btn{width: 300rpx;margin: auto;margin-top: 20rpx;background:#ff2121;border-radius:10rpx;font-size:30rpx;color:#ffffff;text-align:center;height: 80rpx;line-height: 100rpx;}

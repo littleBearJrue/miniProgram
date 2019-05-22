@@ -1,13 +1,16 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <image class= "topImage"  src="../images/top_image.png" />
+  <view class="ws_title">
+    <text>使用介绍</text>
   </view>
-  <view class="userinfo">
-    <button wx:if="{{isDisplayQR}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取二维码 </button>
-    <block wx:else>
-      <image src="../images/myQR.png" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+  <view class="ws_line">
+    <text>—————————————————</text>
+  </view>
+  <view  class="userinfo">
+    <view class="ws_ts">
+      <text>↓ 点击【联系客服】获取优惠券 ↓</text>
+    </view>
+    <button class="ws_btn" open-type='contact' session-from='{"type": "text", "title": "发送1添加客服微信领优惠劵"}'>联系客服</button>
   </view>
 </view>

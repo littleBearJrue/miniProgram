@@ -1,13 +1,13 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "领取优惠券",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eee"
   },
   "sitemapLocation": "sitemap.json"
 }
