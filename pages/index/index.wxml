@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <image class= "topImage"  src="../images/top_image.png" />
+  <image class= "topImage"  src="../images/head_image.png" />
   <view class="ws_title">
     <text>使用介绍</text>
   </view>
