@@ -4,7 +4,6 @@ const app = getApp()
 
 Page({
   data: {
-    motto: '请点击获取二维码',
     userInfo: {},
     isDisplayQR: false,
     hasUserInfo: false,

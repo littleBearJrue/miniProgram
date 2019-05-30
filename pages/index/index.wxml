@@ -7,10 +7,12 @@
   <view class="ws_line">
     <text>—————————————————</text>
   </view>
-  <view  class="userinfo">
+  <view  class="contactZone">
     <view class="ws_ts">
       <text>↓ 点击【联系客服】获取优惠券 ↓</text>
     </view>
     <button class="ws_btn" open-type='contact' session-from='{"type": "text", "title": "发送1添加客服微信领优惠劵"}'>联系客服</button>
   </view>
+  <image class= "topImage"  src="../images/bottom_image.png" />
 </view>
+
