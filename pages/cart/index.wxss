@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  height: 100%;
+  align-items: center;/*垂直居中*/
+  justify-content: center;/*水平居中*/
+}
+.container .cart-image {
+  width: 120px;
+  height: 120px;
+}

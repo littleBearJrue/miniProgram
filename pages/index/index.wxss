@@ -21,7 +21,7 @@
 .ws_line{margin-left: 20rpx; margin-right: 20rpx;}
 .ws_line text{color: rgb(194, 194, 194);}
 
-.ws_title {margin-top: 20rpx;}
+.ws_title {margin-top: 20rpx;text-align:center;}
 .ws_title text{font-size: 34rpx; color: #000;}
 
 
