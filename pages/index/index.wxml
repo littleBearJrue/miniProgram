@@ -9,9 +9,9 @@
   </view>
   <view  class="contactZone">
     <view class="ws_ts">
-      <text>↓ 点击【联系客服】获取优惠券 ↓</text>
+      <text>↓ 点击【联系客服】获取帮助 ↓</text>
     </view>
-    <button class="ws_btn" open-type='contact' session-from='{"type": "text", "title": "发送1添加客服微信领优惠劵"}'>联系客服</button>
+    <button class="ws_btn" open-type='contact'>联系客服</button>
   </view>
   <image class= "topImage"  src="../images/bottom_image.png" />
 </view>
